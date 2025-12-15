@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/person-1.jpeg",
+      "bio": "Photographer | Traveler ",
+      "followers": 240,
+      "following": 180
+    },
+    {
+      "id": "102",
+      "username": "alice_wonder",
+      "profile_pic": "src/assets/person-2.jpeg",
+      "bio": "Nature lover ",
+      "followers": 190,
+      "following": 150
+    },
+    {
+      "id": "103",
+      "username": "mark_92",
+      "profile_pic": "src/assets/person-3.jpeg",
+      "bio": "Tech Enthusiast 💻",
+      "followers": 300,
+      "following": 220
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/person-1.jpeg"
+      },
+      "image": "src/assets/post_1.jpeg",
+      "caption": "Beautiful sunset  #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! "
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/person-2.jpeg"
+      },
+      "image": "src/assets/post-2.jpeg",
+      "caption": "Spring vibes ",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "So pretty!"
+        }
+      ],
+      "timestamp": "2025-02-10T10:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/person-3.jpeg"
+      },
+      "image": "src/assets/post-3.avif",
+      "caption": "New tech toy! #Gadgets",
+      "likes": 150,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Looks cool!"
+        },
+        {
+          "user": "alice_wonder",
+          "comment": "I want one too!"
+        }
+      ],
+      "timestamp": "2025-02-09T16:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Arun",
+    "profile_pic": "src/assets/person-2.jpeg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "xox_gokul",
+      "profile_pic": "src/assets/person-1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "arunesh",
+      "profile_pic": "src/assets/person-2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "emma_stone",
+      "profile_pic": "src/assets/person-3.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "tech_guy",
+      "profile_pic": "src/assets/person-1.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "nature_lover",
+      "profile_pic": "src/assets/person-2.jpeg"
+    },
+    {
+      "id": "106",
+      "username": "travel_with_me",
+      "profile_pic": "src/assets/person-3.jpeg"
+    },
+    {
+      "id": "107",
+      "username": "coding_master",
+      "profile_pic": "src/assets/person-1.jpeg"
+    },
+    {
+      "id": "108",
+      "username": "foodie_world",
+      "profile_pic": "src/assets/person-2.jpeg"
+    },
+    {
+      "id": "109",
+      "username": "art_creator",
+      "profile_pic": "src/assets/person-3.jpeg"
+    },
+    {
+      "id": "110",
+      "username": "fitness_freak",
+      "profile_pic": "src/assets/person-1.jpeg"
+    },
+    {
+      "id": "111",
+      "username": "yoyo_ds",
+      "profile_pic": "src/assets/person-2.jpeg"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/storypic-1.jpeg"
+      },
+      "image": "src/assets/stories-1.jpeg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/storypic-2.jpg"
+      },
+      "image": "src/assets/stories-2.jpeg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/storypic-3.jpeg"
+      },
+      "image": "src/assets/stories-3.jpeg"
+    }
+  ],
+  "reels": [
+    {
+      "id": "1",
+      "user_id": 103,
+      "video": "src/assets/reels/reel1.mp4",
+      "caption": "Weekend mood ",
+      "likes": 540,
+      "timestamp": "2025-02-08T18:00:00Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": "104",
+      "username": "tech_guy"
+    },
+    {
+      "id": "102",
+      "username": "arunesh"
+    }
+  ]
+}
